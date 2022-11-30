@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400&display=swap");
+
+:root {
+  font-family: "Roboto", sans-serif;
+  --body-bg: #91b4c9;
+  --login-field-bg: #1a2226;
+  --login-title: #97b0ced2;
+  --btn-hover: #0fa5c6;
+  --btn-border-hover: #f0f8ff;
+  --input-bg: #1a2226;
+  --input-underline: #0db8de;
+  --input-text: #ecf0f5;
+  --input-underline-focus: #c3effd;
+  --input-label-text: #6c6c6c;
+}
+
+body {
+  background: var(--body-bg);
+}
+
+.login-field {
+  margin-top: 75px;
+  height: auto;
+  background: var(--login-field-bg);
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login-title {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: var(--login-title);
+}
+
+.login-form {
+  margin-top: 25px;
+  text-align: left;
+}
+
+input[type="text"] {
+  background-color: var(--input-bg);
+  border: none;
+  border-bottom: 2px solid var(--input-underline);
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  color: var(--input-text);
+}
+
+input[type="password"] {
+  background-color: var(--input-bg);
+  border: none;
+  border-bottom: 2px solid var(--input-underline);
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  color: var(--input-text);
+}
+
+.form-group {
+  margin-bottom: 40px;
+  outline: 0px;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: none;
+  border-bottom: 2px solid var(--input-underline-focus);
+  outline: 0;
+  background-color: var(--login-field-bg);
+  color: var(--input-text);
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+.form-control-label {
+  font-size: 10px;
+  color: var(--input-label-text);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+  border-color: var(--input-underline);
+  color: var(--input-underline);
+  border-radius: 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-border-hover);
+  right: 0px;
+}
+
+.login-button {
+  padding-right: 0px;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.loginbttm {
+  padding: 0px;
+}
