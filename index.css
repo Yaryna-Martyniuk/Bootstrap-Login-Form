@@ -12,6 +12,7 @@
   --input-text: #ecf0f5;
   --input-underline-focus: #c3effd;
   --input-label-text: #6c6c6c;
+  --input-placeholder-text: #0097c5;
 }
 
 body {
@@ -64,6 +65,12 @@ input[type="password"] {
   padding-left: 0px;
   margin-bottom: 20px;
   color: var(--input-text);
+}
+
+input[placeholder]{
+    font-weight: 100;
+    font-size:11px;
+    color: var(--input-placeholder-text);
 }
 
 .form-group {
