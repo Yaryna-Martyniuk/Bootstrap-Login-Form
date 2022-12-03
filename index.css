@@ -24,7 +24,7 @@ body {
   height: auto;
   background: var(--login-field-bg);
   text-align: center;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px #00000029, 0 3px 6px #0000003b;
 }
 
 .login-title {
@@ -85,6 +85,7 @@ input[placeholder]{
   outline: 0;
   background-color: var(--login-field-bg);
   color: var(--input-text);
+  size:15px;
 }
 
 input:focus {
@@ -100,6 +101,17 @@ label {
   color: var(--input-label-text);
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+.forgot_password_div {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  color:var(--input-placeholder-text);
+  font-size: 12px;
+}
+
+.forgot_password_div > label{
+  margin-left:5px;
 }
 
 .btn-outline-primary {
