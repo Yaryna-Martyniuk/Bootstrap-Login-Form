@@ -85,7 +85,7 @@ input[placeholder] {
   outline: 0;
   background-color: var(--login-field-bg);
   color: var(--input-text);
-  size:15px;
+  size: 15px;
 }
 
 input:focus {
@@ -103,15 +103,15 @@ label {
   letter-spacing: 1px;
 }
 
-.forgot_password_div {
-  margin-top: -20px;
+.forgot_pass_div {
+  margin-top: -30px;
   margin-bottom: 20px;
-  color:var(--input-placeholder-text);
-  font-size: 12px;
 }
 
-.forgot_password_div > label{
-  margin-left:5px;
+.forgot_pass {
+  font-size: 10px;
+  text-decoration: none;
+  color: var(--input-underline-focus);
 }
 
 .btn-outline-primary {
